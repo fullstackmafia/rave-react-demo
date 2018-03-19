@@ -1,0 +1,62 @@
+html, body, #root {
+  height: 100%;
+}
+.hero.is-primary {
+  background: #171a21;
+  min-height: 100%;
+}
+
+.header > img {
+  width: 57px;
+  height: auto;
+  display: block;
+}
+
+.header > span {
+  text-transform: uppercase;
+  margin-top: 5px;
+  display: block;
+}
+
+.title {
+  margin-top: 100px;
+  font-weight: 400; 
+}
+
+.button {
+  margin-right: 10px;
+}
+
+.button.is-primary {
+  background: #6f90ff;
+}
+
+.button.is-primary:hover {
+  background: #6f90ff;
+  opacity: .9;
+}
+
+.button.is-outlined {
+  background: transparent;
+  color: #fff;
+}
+
+.amount {
+  border: none;
+  border-bottom: 1px solid #e1e1e1;
+  background: transparent;
+  height: 50px;;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 30px;
+  outline: none;
+}
+
+.test-cards {
+  position: fixed;
+  bottom: 15px;
+}
+
+.test-cards a {
+  color: skyblue !important;
+}
